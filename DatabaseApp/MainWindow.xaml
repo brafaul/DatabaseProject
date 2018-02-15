@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Button x:Name="Asset" Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,13,0,0" Click="Button_Click"/>
+        <TextBox x:Name="TextArea" HorizontalAlignment="Left" Height="299" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="258" Margin="249,10,0,0" TextChanged="TextBox_TextChanged"/>
+        <Button x:Name="Employee" Content="Button" HorizontalAlignment="Left" Width="75" Margin="10,0,0,261" Height="20" VerticalAlignment="Bottom" Click="Employee_Click"/>
+
     </Grid>
 </Window>
